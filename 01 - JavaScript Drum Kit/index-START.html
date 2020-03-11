@@ -64,7 +64,7 @@
         audio.play();
         key.classList.add("playing");
       }
-
+      
       window.addEventListener("keydown", function(e) {});
 
       function removeTransition(e) {
@@ -76,7 +76,7 @@
       keys.forEach(key =>
         key.addEventListener("transitionend", removeTransition)
       );
-      window.addEventListener('keydown', playSound);
+      window.addEventListener("keydown", playSound);
     </script>
   </body>
 </html>
